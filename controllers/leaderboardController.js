@@ -39,6 +39,7 @@ exports.leaderboard_post = [
 
         }else {
                 await newleaderboard.save(); 
+                res.json({msg: 'saved'});
             }
         
     })
